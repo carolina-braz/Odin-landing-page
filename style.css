@@ -23,15 +23,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 20px;
+    margin: 20px 100px;
 }
 
 
 
 #one {
     display: flex;
-    justify-content: space-around;
-    margin: 0;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 100px;
     padding: 0;
 }
 
@@ -82,7 +83,8 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    padding: 50px;
+    padding-bottom: 100px;
 }
 
 .title {
@@ -124,16 +126,71 @@ header {
 }
 
 #three {
+    display: flex;
+    flex-flow: column wrap;
     background-color: #e5e7eb;
     justify-content: center;
     align-content: center;
     text-align: justify;
+    padding: 100px
 }
 
 .quote {
+    width: 600px;
     color: #1f2937;
     font-size: 36px;
     font-weight: 300px;
     font-style: italic;
+}
+
+.source {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+#four {
+    background-color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 800px;
+    padding: 50px 0;
+    margin: 50px 0;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+.endnote {
+    
+    color:#f9faf8;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    margin: 0px;
+}
+
+#endnote {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#endtext {
+    font-size: 16px;
+    font-weight: 100px;
+    margin: 0;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px 0;
 }
 
